@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from services.db_connection import db
-from services.vectorstore import index_or_load_vectorstore
-from services.query import write_query, execute_query, generate_answer
+from src.services.db_connection import db
+from src.services.vectorstore import index_or_load_vectorstore
+from src.services.query import write_query, execute_query, generate_answer
 
 router = APIRouter()
 
