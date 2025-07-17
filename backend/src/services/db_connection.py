@@ -1,11 +1,12 @@
 from langchain_community.utilities import SQLDatabase
+import sqlite3
 
 db = SQLDatabase.from_uri("sqlite:///e-commerce-data/olist.sqlite/olist.sqlite")
 
 print(db.dialect)
 
 # print(db.get_usable_table_names())
-print(db.get_table_info())
+# print(db.get_table_info())
 """CREATE TABLE customers (
         customer_id TEXT, 
         customer_unique_id TEXT, 
@@ -207,3 +208,27 @@ d1b65fc7debc3361ea86b5f14c68d2e2        13844   mogi guacu      SP
 ce3ad9de960102d0677a81f5d0bb7b2d        20031   rio de janeiro  RJ
 */
 """
+
+def add_realtime_columns_to_products():
+    db_path = "e-commerce-data/olist.sqlite/olist.sqlite"
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    # Add columns if they do not exist
+    try:
+        cursor.execute("ALTER TABLE products ADD COLUMN current_price REAL")
+    except sqlite3.OperationalError:
+        pass  # Column already exists
+    try:
+        cursor.execute("ALTER TABLE products ADD COLUMN discount_percent REAL")
+    except sqlite3.OperationalError:
+        pass
+    try:
+        cursor.execute("ALTER TABLE products ADD COLUMN in_stock INTEGER")
+    except sqlite3.OperationalError:
+        pass
+    conn.commit()
+    conn.close()
+
+if __name__ == "__main__":
+    add_realtime_columns_to_products()
+    print("Added real-time columns to products table (if not already present).")
