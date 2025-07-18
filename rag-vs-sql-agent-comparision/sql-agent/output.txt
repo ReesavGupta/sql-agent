@@ -1,0 +1,186 @@
+Question 1: List all products that are currently in stock.
+Answer:
+[
+  {
+    "product_id": "1e9e8ef04dbcff4541ed26657ea517e5",
+    "product_category_name": "perfumaria",
+    "product_name_lenght": 40.0,
+    "product_description_lenght": 287.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 225.0,
+    "product_length_cm": 16.0,
+    "product_height_cm": 10.0,
+    "product_width_cm": 14.0,
+    "current_price": 279.04,
+    "discount_percent": 44.73,
+    "in_stock": 1
+  },
+  {
+    "product_id": "96bd76ec8810374ed1b65e291975717f",
+    "product_category_name": "esporte_lazer",
+    "product_name_lenght": 46.0,
+    "product_description_lenght": 250.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 154.0,
+    "product_length_cm": 18.0,
+    "product_height_cm": 9.0,
+    "product_width_cm": 15.0,
+    "current_price": 483.95,
+    "discount_percent": 1.15,
+    "in_stock": 1
+  },
+  {
+    "product_id": "cef67bcfe19066a932b7673e239eb23d",
+    "product_category_name": "bebes",
+    "product_name_lenght": 27.0,
+    "product_description_lenght": 261.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 371.0,
+    "product_length_cm": 26.0,
+    "product_height_cm": 4.0,
+    "product_width_cm": 26.0,
+    "current_price": 93.48,
+    "discount_percent": 4.75,
+    "in_stock": 1
+  },
+  {
+    "product_id": "41d3672d4792049fa1779bb35283ed13",
+    "product_category_name": "instrumentos_musicais",
+    "product_name_lenght": 60.0,
+    "product_description_lenght": 745.0,
+    "product_photos_qty": 1.0,
+    "product_weight_g": 200.0,
+    "product_length_cm": 38.0,
+    "product_height_cm": 5.0,
+    "product_width_cm": 11.0,
+    "current_price": 138.63,
+    "discount_percent": 8.75,
+    "in_stock": 1
+  },
+  {
+    "product_id": "732bd381ad09e530fe0a5f457d81becb",
+    "product_category_name": "cool_stuff",
+    "product_name_lenght": 56.0,
+    "product_description_lenght": 1272.0,
+    "product_photos_qty": 4.0,
+    "product_weight_g": 18350.0,
+    "product_length_cm": 70.0,
+    "product_height_cm": 24.0,
+    "product_width_cm": 44.0,
+    "current_price": 465.34,
+    "discount_percent": 12.67,
+    "in_stock": 1
+  }
+]
+
+---
+
+Question 2: Show all customers from 'sao paulo'.
+Answer:
+Here are 5 customers from sao paulo:
+* customer_id: 4e7b3e00288586ebd08712fdd0374a03, customer_unique_id: 060e732b5b29e8181a18229c7b0b2b5e, customer_zip_code_prefix: 1151, customer_city: sao paulo, customer_state: SP
+* customer_id: fd826e7cf63160e536e0908c76c3f441, customer_unique_id: addec96d2e059c80c30fe6871d30d177, customer_zip_code_prefix: 4534, customer_city: sao paulo, customer_state: SP
+* customer_id: eabebad39a88bb6f5b52376faec28612, customer_unique_id: 295c05e81917928d76245e842748184d, customer_zip_code_prefix: 5704, customer_city: sao paulo, customer_state: SP
+* customer_id: 9b8ce803689b3562defaad4613ef426f, customer_unique_id: 7f3a72e8f988c6e735ba118d54f47458, customer_zip_code_prefix: 5416, customer_city: sao paulo, customer_state: SP
+* customer_id: 2938121a40a20953c43caa8c98787fcb, customer_unique_id: 482441ea6a06b1f72fe9784756c0ea75, customer_zip_code_prefix: 5713, customer_city: sao paulo, customer_state: SP
+
+---
+
+Question 3: List all reviews with a score of 5.
+Answer:
+[
+  {
+    "review_id": "80e641a11e56f04c1ad469d5645fdfde",
+    "order_id": "a548910a1c6147796b98fdf73dbeba33",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-03-10 00:00:00",
+    "review_answer_timestamp": "2018-03-11 03:05:13"
+  },
+  {
+    "review_id": "228ce5500dc1d8e020d8d1322874b6f0",
+    "order_id": "f9e4b658b201a9f2ecdecbb34bed034b",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2018-02-17 00:00:00",
+    "review_answer_timestamp": "2018-02-18 14:36:24"
+  },
+  {
+    "review_id": "e64fb393e7b32834bb789ff8bb30750e",
+    "order_id": "658677c97b385a9be170737859d3511b",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Recebi bem antes do prazo estipulado.",
+    "review_creation_date": "2017-04-21 00:00:00",
+    "review_answer_timestamp": "2017-04-21 22:02:06"
+  },
+  {
+    "review_id": "f7c4243c7fe1938f181bec41a392bdeb",
+    "order_id": "8e6bfb81e283fa7e4f11123a3fb894f1",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": "Parabéns lojas lannister adorei comprar pela Internet seguro e prático Parabéns a todos feliz Páscoa",
+    "review_creation_date": "2018-03-01 00:00:00",
+    "review_answer_timestamp": "2018-03-02 10:26:53"
+  },
+  {
+    "review_id": "07f9bee5d1b850860defd761afa7ff16",
+    "order_id": "e48aa0d2dcec3a2e87348811bcfdf22b",
+    "review_score": 5,
+    "review_comment_title": null,
+    "review_comment_message": null,
+    "review_creation_date": "2017-07-16 00:00:00",
+    "review_answer_timestamp": "2017-07-18 19:30:34"
+  }
+]
+
+---
+
+Question 4: Show the most recent order for customer_id '06b8999e2fba1a1fbc88172c00ba8bc7'.
+Answer:
+The most recent order for customer_id '06b8999e2fba1a1fbc88172c00ba8bc7' was placed on 2017-06-05 00:00:00 and is marked as delivered.
+
+---
+Question 5: What is the average order value for customers in 'rio de janeiro'?
+Answer:
+It seems like the 'order_value' column is missing from the 'orders' table. We need to find a different way to calculate the average order value. Can you tell me if there are any other relevant tables?
+
+---
+Question 6: Show the top 5 products by number of orders.
+Answer:
+The table 'orders' does not have a 'product' column.
+
+---
+Question 7: Which city has the highest number of delivered orders?
+Answer:
+The table 'orders' does not have a 'city' column.
+
+---
+Question 8: Find the top 3 customers by total order value.
+Answer:
+There is no column named 'order_value' in the 'orders' table.
+
+---
+Question 9: Which customers have not placed any orders?
+Answer:
+[
+  {
+    "customer_id": "06b8999e2fba1a1fbc88172c00ba8bc7",
+    "customer_unique_id": "861eff4711a542e4b93843c6dd7febb0"
+  },
+  {
+    "customer_id": "18955e83d337fd6b2def6b18a428ac77",
+    "customer_unique_id": "290c77bc529b7ac935b93aa66c333dc3"
+  },
+  {
+    "customer_id": "4e7b3e00288586ebd08712fdd0374a03",
+    "customer_unique_id": "060e732b5b29e8181a18229c7b0b2b5e"
+  }
+]
+
+---
+Question 10: What is the total revenue generated from orders with a 5-star review?
+Answer:
+It seems like the `order_total` column is missing from the `orders` table.  I need more information to answer your question.  Can you tell me if there is another table that might contain order total information?

@@ -1,0 +1,14 @@
+[
+  "List all products that are currently in stock.",
+  "Show all customers from 'sao paulo'.",
+  "List all reviews with a score of 5.",
+  "Show the most recent order for customer_id '06b8999e2fba1a1fbc88172c00ba8bc7'.",
+
+  "What is the average order value for customers in 'rio de janeiro'?",
+  "Show the top 5 products by number of orders.",
+  "Which city has the highest number of delivered orders?",
+
+  "Find the top 3 customers by total order value.",
+  "What is the total revenue generated from orders with a 5-star review?",
+  "Which customers have not placed any orders?"
+]
